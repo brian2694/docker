@@ -1,1 +1,3 @@
-RUN pecl install redis && docker-php-ext-enable redis && apt-get install redis-cli -y
+USER root
+
+RUN apt-get install redis-cli -y

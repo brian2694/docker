@@ -1,3 +1,1 @@
-USER root
-
-RUN apt-get install redis-cli -y
+RUN echo 'we are running some # of cool things'
